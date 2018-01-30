@@ -1,0 +1,1769 @@
+<!DOCTYPE html>
+<html>
+ <head>
+  <title data-react-helmet="true">
+   Uber | Fleet Dashboard
+  </title>
+  <meta content="width=device-width, initial-scale=1.0" data-react-helmet="true" name="viewport"/>
+  <link data-react-helmet="true" href="https://d1a3f4spazzrp4.cloudfront.net/uber-fonts/4.0.0/superfine.css" rel="stylesheet"/>
+  <link data-react-helmet="true" href="https://d1a3f4spazzrp4.cloudfront.net/superfine/6.2.2/superfine.css" rel="stylesheet"/>
+  <link data-react-helmet="true" href="https://d1a3f4spazzrp4.cloudfront.net/uber-icons/3.14.0/uber-icons.css" rel="stylesheet"/>
+  <link data-react-helmet="true" href="https://d3i4yxtzktqr9n.cloudfront.net/web-fleet-manager/static/superfine-overrides-a55344d9eb.css" rel="stylesheet"/>
+  <link data-react-helmet="true" href="https://d3i4yxtzktqr9n.cloudfront.net/web-fleet-manager/static/favicon-b4656402d0.ico" rel="icon" type="image/x-icon"/>
+  <script id="json-globals" type="application/json">
+   {"state":{"datePicker":{"timezone":"Asia\u002FColombo","dates":[[{"selected":false,"text":30,"isToday":false,"isDisabled":false,"isThisMonth":false,"isStart":false,"isEnd":false,"id":"2017-01-30"},{"selected":false,"text":31,"isToday":false,"isDisabled":false,"isThisMonth":false,"isStart":false,"isEnd":false,"id":"2017-01-31"},{"selected":false,"text":1,"isToday":false,"isDisabled":false,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-01"},{"selected":false,"text":2,"isToday":false,"isDisabled":false,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-02"},{"selected":false,"text":3,"isToday":false,"isDisabled":false,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-03"},{"selected":false,"text":4,"isToday":false,"isDisabled":false,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-04"},{"selected":false,"text":5,"isToday":false,"isDisabled":false,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-05"}],[{"selected":false,"text":6,"isToday":true,"isDisabled":false,"isThisMonth":true,"isStart":true,"isEnd":true,"id":"2017-02-06"},{"selected":false,"text":7,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-07"},{"selected":false,"text":8,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-08"},{"selected":false,"text":9,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-09"},{"selected":false,"text":10,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-10"},{"selected":false,"text":11,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-11"},{"selected":false,"text":12,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-12"}],[{"selected":false,"text":13,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-13"},{"selected":false,"text":14,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-14"},{"selected":false,"text":15,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-15"},{"selected":false,"text":16,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-16"},{"selected":false,"text":17,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-17"},{"selected":false,"text":18,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-18"},{"selected":false,"text":19,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-19"}],[{"selected":false,"text":20,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-20"},{"selected":false,"text":21,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-21"},{"selected":false,"text":22,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-22"},{"selected":false,"text":23,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-23"},{"selected":false,"text":24,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-24"},{"selected":false,"text":25,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-25"},{"selected":false,"text":26,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-26"}],[{"selected":false,"text":27,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-27"},{"selected":false,"text":28,"isToday":false,"isDisabled":true,"isThisMonth":true,"isStart":false,"isEnd":false,"id":"2017-02-28"},{"selected":false,"text":1,"isToday":false,"isDisabled":true,"isThisMonth":false,"isStart":false,"isEnd":false,"id":"2017-03-01"},{"selected":false,"text":2,"isToday":false,"isDisabled":true,"isThisMonth":false,"isStart":false,"isEnd":false,"id":"2017-03-02"},{"selected":false,"text":3,"isToday":false,"isDisabled":true,"isThisMonth":false,"isStart":false,"isEnd":false,"id":"2017-03-03"},{"selected":false,"text":4,"isToday":false,"isDisabled":true,"isThisMonth":false,"isStart":false,"isEnd":false,"id":"2017-03-04"},{"selected":false,"text":5,"isToday":false,"isDisabled":true,"isThisMonth":false,"isStart":false,"isEnd":false,"id":"2017-03-05"}]],"minDate":"2016-01-01","maxDate":"","curDate":"2017-02-06","selectedStartDate":"2017-02-06","selectedEndDate":"2017-02-06","clickStartDate":"2017-02-06","clickEndDate":"2017-02-06","selectMode":"daily","hideDatePicker":true},"drivers":{"isLoading":false,"data":{"drivers":[{"uuid":"82a3d020-8839-4d13-a3a2-00dce9891106","pictureUrl":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002F3695ff4304008026bc9d.jpeg","name":"Pardeep Kumar","mobile":"+919821067452","licensePlate":null,"realtimeStatus":"OFFLINE","onboardingStatus":"ACTIVE","lastOnlineTime":null,"vehicleUuid":null,"waitlistedByFleet":false},{"uuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","pictureUrl":null,"name":"Balvinder Singh","mobile":"+918557825020","licensePlate":null,"realtimeStatus":null,"onboardingStatus":"ACCEPTED","lastOnlineTime":null,"vehicleUuid":null,"waitlistedByFleet":false},{"uuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","pictureUrl":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002Ffe2b424ab13a5d3456af.jpeg","name":"Janardan Shukla","mobile":"+919821067530","licensePlate":"DL1RTB8063","realtimeStatus":"ONTRIP","onboardingStatus":"ACTIVE","lastOnlineTime":null,"vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","waitlistedByFleet":false}],"timezone":"Asia\u002FColombo"},"tableState":{"fullSet":true,"searchableFields":["uuid","name","mobile"],"allServerItems":[{"id":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","value":"Janardan Shukla","hrefTarget":"_blank"},"mobile":{"text":"+919821067530","value":"+919821067530"},"uuid":{"text":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","value":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8"},"realtimeStatus":{"value":"ONTRIP","filterValues":["ALL_DRIVERS","ONTRIP"],"text":"on trip","icon":"ONTRIP"},"onboardingStatus":{"text":"active","value":"ACTIVE","filterValues":["ALL_DRIVERS","ACTIVE"],"actionType":"DEACTIVATE_BUTTON"},"avatar":{"text":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002Ffe2b424ab13a5d3456af.jpeg"},"hidden":false},{"id":"82a3d020-8839-4d13-a3a2-00dce9891106","name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002F82a3d020-8839-4d13-a3a2-00dce9891106","text":"Pardeep Kumar","value":"Pardeep Kumar","hrefTarget":"_blank"},"mobile":{"text":"+919821067452","value":"+919821067452"},"uuid":{"text":"82a3d020-8839-4d13-a3a2-00dce9891106","value":"82a3d020-8839-4d13-a3a2-00dce9891106"},"realtimeStatus":{"value":"OFFLINE","filterValues":["ALL_DRIVERS","OFFLINE"],"text":"offline","icon":"OFFLINE","footNote":"Driver not logged in last 7 days"},"onboardingStatus":{"text":"active","value":"ACTIVE","filterValues":["ALL_DRIVERS","ACTIVE"],"actionType":"DEACTIVATE_BUTTON"},"avatar":{"text":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002F3695ff4304008026bc9d.jpeg"},"hidden":false},{"id":"3380a3e0-939a-4ca1-a232-87cccf908c83","name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002F3380a3e0-939a-4ca1-a232-87cccf908c83","text":"Balvinder Singh","value":"Balvinder Singh","hrefTarget":"_blank"},"mobile":{"text":"+918557825020","value":"+918557825020"},"uuid":{"text":"3380a3e0-939a-4ca1-a232-87cccf908c83","value":"3380a3e0-939a-4ca1-a232-87cccf908c83"},"realtimeStatus":{"value":"—","filterValues":["ALL_DRIVERS",null],"text":"—","icon":null},"onboardingStatus":{"text":"—","value":"ACCEPTED","filterValues":["ALL_DRIVERS",null],"actionType":"NONE"},"avatar":{"text":null},"hidden":false}],"showPerPage":10,"curPageNum":1,"hideDropDown":true,"hideSuggestion":false,"hoverFieldName":"","searchVal":"","sortField":{"name":"realtimeStatus","ascending":false},"perPageOptions":[10,20,50],"headers":[{"name":"avatar","value":"","isAvatar":true,"downloadable":false,"style":{"width":"50px"}},{"name":"name","value":"Driver","sortable":true,"downloadable":true,"itemClassNames":""},{"name":"onboardingStatus","value":"Status","downloadable":true,"sortable":true},{"name":"realtimeStatus","value":"Realtime","downloadable":true,"sortable":true},{"name":"mobile","value":"Mobile","downloadable":true,"sortable":true}],"hideDownloadCSV":false,"downloadCSVType":"drivers","downloadLabel":"Download CSV","downloadFileName":"drivers.csv","isTableExpandable":false,"placeholder":"Search for a driver by name, uuid or mobile","searchBoxClassNames":"","selectFilterOptions":[{"value":"ALL_DRIVERS","text":"All Drivers (3)","fieldToMatch":"onboardingStatus"},{"value":"ACTIVE","text":"Active (2)","fieldToMatch":"onboardingStatus","children":[{"value":"ONTRIP","text":"On Trip (1)","fieldToMatch":"realtimeStatus","meta":{"statusIcon":"ONTRIP"}},{"value":"ONLINE","text":"Online (0)","fieldToMatch":"realtimeStatus","meta":{"statusIcon":"ONLINE"}},{"value":"OFFLINE","text":"Offline (1)","fieldToMatch":"realtimeStatus","meta":{"statusIcon":"OFFLINE"}}]},{"value":"APPLIED","text":"Applied (0)","fieldToMatch":"onboardingStatus"},{"value":"WAITLISTED","text":"Waitlisted (0)","fieldToMatch":"onboardingStatus"},{"value":"REJECTED","text":"Rejected (0)","fieldToMatch":"onboardingStatus"}],"selectedItem":{"value":"ALL_DRIVERS","text":"All Drivers (3)","fieldToMatch":"onboardingStatus"},"needToReCompute":true,"curPageTableItems":[{"id":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","value":"Janardan Shukla","hrefTarget":"_blank"},"mobile":{"text":"+919821067530","value":"+919821067530"},"uuid":{"text":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","value":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8"},"realtimeStatus":{"value":"ONTRIP","filterValues":["ALL_DRIVERS","ONTRIP"],"text":"on trip","icon":"ONTRIP"},"onboardingStatus":{"text":"active","value":"ACTIVE","filterValues":["ALL_DRIVERS","ACTIVE"],"actionType":"DEACTIVATE_BUTTON"},"avatar":{"text":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002Ffe2b424ab13a5d3456af.jpeg"},"hidden":false},{"id":"82a3d020-8839-4d13-a3a2-00dce9891106","name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002F82a3d020-8839-4d13-a3a2-00dce9891106","text":"Pardeep Kumar","value":"Pardeep Kumar","hrefTarget":"_blank"},"mobile":{"text":"+919821067452","value":"+919821067452"},"uuid":{"text":"82a3d020-8839-4d13-a3a2-00dce9891106","value":"82a3d020-8839-4d13-a3a2-00dce9891106"},"realtimeStatus":{"value":"OFFLINE","filterValues":["ALL_DRIVERS","OFFLINE"],"text":"offline","icon":"OFFLINE","footNote":"Driver not logged in last 7 days"},"onboardingStatus":{"text":"active","value":"ACTIVE","filterValues":["ALL_DRIVERS","ACTIVE"],"actionType":"DEACTIVATE_BUTTON"},"avatar":{"text":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002F3695ff4304008026bc9d.jpeg"},"hidden":false},{"id":"3380a3e0-939a-4ca1-a232-87cccf908c83","name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002F3380a3e0-939a-4ca1-a232-87cccf908c83","text":"Balvinder Singh","value":"Balvinder Singh","hrefTarget":"_blank"},"mobile":{"text":"+918557825020","value":"+918557825020"},"uuid":{"text":"3380a3e0-939a-4ca1-a232-87cccf908c83","value":"3380a3e0-939a-4ca1-a232-87cccf908c83"},"realtimeStatus":{"value":"—","filterValues":["ALL_DRIVERS",null],"text":"—","icon":null},"onboardingStatus":{"text":"—","value":"ACCEPTED","filterValues":["ALL_DRIVERS",null],"actionType":"NONE"},"avatar":{"text":null},"hidden":false}],"numPages":1}},"trips":{"isLoading":false,"tableState":{"fullSet":false,"totalCount":8,"searchableFields":["name"],"allServerItems":[{"id":"445c9290-050b-4d6f-b3ed-5225716c2484","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          4:35 PM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          --\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 4:35 PM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"—","csvOverride":"—"},"time":{"text":"  0m 0s","csvOverride":"0.00"},"mileage":{"text":"0.00"},"status":{"text":"rider canceled"}},{"id":"155581ed-e5ee-4c09-acfb-f17b406e76c5","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid green\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid green;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          3:51 PM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Gents Hostel 6 And Gym Ln, AIIMS Campus, Ansari Nagar East, New Delhi, Delhi 110029, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          4:31 PM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Plot No. 45, District Centre, Near Intercontinental Hotel, Nehru Place, Nehru Place, New Delhi, Delhi 110019, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 3:51 PM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹189.66","csvOverride":"189.66"},"time":{"text":"  28m 4s","csvOverride":"0.47"},"mileage":{"text":"8.89"},"status":{"text":"completed"}},{"id":"4b52a43b-ec28-41d5-b877-f3370d7dfa44","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          1:26 PM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          --\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 1:26 PM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"—","csvOverride":"—"},"time":{"text":"  0m 0s","csvOverride":"0.00"},"mileage":{"text":"0.00"},"status":{"text":"driver canceled"}},{"id":"8812b12d-572c-4583-bdce-782e2224e6ae","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid green\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid green;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:44 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Crossings Republik Rd, Crossings Republik, Ghaziabad, Uttar Pradesh 201009, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          11:46 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Noida-Greater Noida Expressway, Sector 128, Noida, Uttar Pradesh 201304, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 10:44 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹364.38","csvOverride":"364.38"},"time":{"text":"  45m 57s","csvOverride":"0.77"},"mileage":{"text":"21.87"},"status":{"text":"completed"}},{"id":"1c4bf26c-7f27-432c-aa15-41cd1c7d7678","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:34 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          --\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 10:34 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹60.00","csvOverride":"60.00"},"time":{"text":"  0m 0s","csvOverride":"0.00"},"mileage":{"text":"0.00"},"status":{"text":"driver canceled"}},{"id":"64946f9a-1fff-4723-b71f-17b479cdbd98","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid green\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid green;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:08 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          B 32, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:34 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Gaur City 1, Ghaziabad, Uttar Pradesh 201009, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 10:08 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹226.83","csvOverride":"226.83"},"time":{"text":"  22m 29s","csvOverride":"0.37"},"mileage":{"text":"9.95"},"status":{"text":"completed"}},{"id":"e562eb4d-ccc6-427c-aa09-5be0905aba01","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid green\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid green;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          9:02 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Raja Dhirsain Marg, Block A, APB Garhi, East of Kailash, New Delhi, Delhi 110048, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:08 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          B-13A, Institutional Area, Phase 2, Sector 62, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 9:02 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹564.70","csvOverride":"564.70"},"time":{"text":"  50m 33s","csvOverride":"0.84"},"mileage":{"text":"18.13"},"status":{"text":"completed"}},{"id":"2640c691-e776-4e5a-893d-89aba9b78b61","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          8:50 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          --\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 8:50 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"—","csvOverride":"—"},"time":{"text":"  0m 0s","csvOverride":"0.00"},"mileage":{"text":"0.00"},"status":{"text":"driver canceled"}}],"showPerPage":10,"curPageNum":1,"perPageOptions":[10,20,50],"headers":[{"name":"pickup","value":"Requested","sortable":false,"downloadable":true},{"name":"name","value":"Driver","sortable":false,"downloadable":true},{"name":"license","value":"License","sortable":false,"downloadable":true},{"name":"fare","value":"Fare","sortable":false,"downloadable":true},{"name":"time","value":"Time","sortable":false,"downloadable":true},{"name":"mileage","value":"Kilometers","sortable":false,"downloadable":true},{"name":"status","value":"Status","sortable":false,"downloadable":true}],"isTableExpandable":true,"placeholder":"Search for a driver by name, uuid or mobile","searchBoxClassNames":"","downloadCSVType":"driver_trips","downloadLabel":"Download CSV","downloadFileName":"driver_trips.csv","curPageTableItems":[{"id":"445c9290-050b-4d6f-b3ed-5225716c2484","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          4:35 PM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          --\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 4:35 PM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"—","csvOverride":"—"},"time":{"text":"  0m 0s","csvOverride":"0.00"},"mileage":{"text":"0.00"},"status":{"text":"rider canceled"}},{"id":"155581ed-e5ee-4c09-acfb-f17b406e76c5","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid green\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid green;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          3:51 PM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Gents Hostel 6 And Gym Ln, AIIMS Campus, Ansari Nagar East, New Delhi, Delhi 110029, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          4:31 PM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Plot No. 45, District Centre, Near Intercontinental Hotel, Nehru Place, Nehru Place, New Delhi, Delhi 110019, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 3:51 PM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹189.66","csvOverride":"189.66"},"time":{"text":"  28m 4s","csvOverride":"0.47"},"mileage":{"text":"8.89"},"status":{"text":"completed"}},{"id":"4b52a43b-ec28-41d5-b877-f3370d7dfa44","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          1:26 PM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          --\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 1:26 PM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"—","csvOverride":"—"},"time":{"text":"  0m 0s","csvOverride":"0.00"},"mileage":{"text":"0.00"},"status":{"text":"driver canceled"}},{"id":"8812b12d-572c-4583-bdce-782e2224e6ae","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid green\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid green;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:44 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Crossings Republik Rd, Crossings Republik, Ghaziabad, Uttar Pradesh 201009, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          11:46 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Noida-Greater Noida Expressway, Sector 128, Noida, Uttar Pradesh 201304, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 10:44 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹364.38","csvOverride":"364.38"},"time":{"text":"  45m 57s","csvOverride":"0.77"},"mileage":{"text":"21.87"},"status":{"text":"completed"}},{"id":"1c4bf26c-7f27-432c-aa15-41cd1c7d7678","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:34 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          --\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 10:34 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹60.00","csvOverride":"60.00"},"time":{"text":"  0m 0s","csvOverride":"0.00"},"mileage":{"text":"0.00"},"status":{"text":"driver canceled"}},{"id":"64946f9a-1fff-4723-b71f-17b479cdbd98","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid green\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid green;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:08 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          B 32, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:34 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Gaur City 1, Ghaziabad, Uttar Pradesh 201009, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 10:08 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹226.83","csvOverride":"226.83"},"time":{"text":"  22m 29s","csvOverride":"0.37"},"mileage":{"text":"9.95"},"status":{"text":"completed"}},{"id":"e562eb4d-ccc6-427c-aa09-5be0905aba01","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid green\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid green;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          9:02 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          Raja Dhirsain Marg, Block A, APB Garhi, East of Kailash, New Delhi, Delhi 110048, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          10:08 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          B-13A, Institutional Area, Phase 2, Sector 62, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301, India\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 9:02 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"₹564.70","csvOverride":"564.70"},"time":{"text":"  50m 33s","csvOverride":"0.84"},"mileage":{"text":"18.13"},"status":{"text":"completed"}},{"id":"2640c691-e776-4e5a-893d-89aba9b78b61","expandable":{"isOpen":false,"jsx":"\u003Cdiv class=\"clearfix\"\u003E\n       \u003Cdiv class=\"push--left float--left\"\u003E\n         \n       \u003C\u002Fdiv\u003E\n        \u003Cdiv class=\"push-huge--left float--left\"\u003E\n        \u003Cdiv\u003E\n            UberX\n          \u003C\u002Fdiv\u003E\n          \u003Cdiv class=\"push--top clearfix\"\u003E\n            \u003Cdiv class=\"float--left\"\u003E\n        \u003Ci style=\n      \"border-radius: 50%;\n      display: inline-block;\n      margin-top: 2.5px;\n      margin-bottom: 2.5px;\n      margin-right: 5px;\n      height: 16px;\n      width: 16px;\n      position: relative;\n      border: 1px solid red\";\u003E\n      \u003Ci style=\n        \"border-radius: 50%;\n        display: inline-block;\n        height: 4px;\n        width: 4px;\n        border: 3px solid red;\n        position: absolute;\n        margin: auto;\n        left: 0;\n        right: 0;\n        bottom: 0;\n        top: 0;\";\u003E\n      \u003C\u002Fi\u003E\n    \u003C\u002Fi\u003E\n      \u003C\u002Fdiv\u003E\n      \u003Cdiv class=\"float--left\"\u003E\n        \u003Cdiv\u003E\n          8:50 AM +0530\n        \u003C\u002Fdiv\u003E\n        \u003Cdiv\u003E\n          --\n        \u003C\u002Fdiv\u003E\n      \u003C\u002Fdiv\u003E\n    \n          \u003C\u002Fdiv\u003E\n          \n        \u003C\u002Fdiv\u003E\n    \u003C\u002Fdiv\u003E"},"pickup":{"text":"02\u002F06\u002F2017 8:50 AM +0530"},"name":{"href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Ff3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","text":"Janardan Shukla","hrefTarget":"_blank"},"license":{"text":"DL1RTB8063"},"fare":{"text":"—","csvOverride":"—"},"time":{"text":"  0m 0s","csvOverride":"0.00"},"mileage":{"text":"0.00"},"status":{"text":"driver canceled"}}],"hideDownloadCSV":true,"needToReCompute":true,"numPages":1},"data":{"trips":{"tripCount":8,"trips":[{"uuid":"445c9290-050b-4d6f-b3ed-5225716c2484","status":"CANCELED","requestTime":"2017-02-06T11:05:32.000Z","beginTripTime":null,"dropoffTime":null,"clientUuid":"b4f88986-eb47-4001-90c5-d2dabf9f3cef","driverUuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","partnerUuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","durationInSeconds":0,"distance":0,"fare":0,"flowType":"UberX","currencyCode":"INR","begintripAddress":null,"dropoffAddress":"Humayun's Tomb, Nizamuddin, Nizamuddin East, New Delhi, Delhi 110013","clientName":null,"driverName":"Janardan Shukla","vehicleLicensePlate":"DL1RTB8063"},{"uuid":"155581ed-e5ee-4c09-acfb-f17b406e76c5","status":"COMPLETED","requestTime":"2017-02-06T10:21:08.000Z","beginTripTime":"2017-02-06T10:33:05.000Z","dropoffTime":"2017-02-06T11:01:09.000Z","clientUuid":"ca7e2e37-62b1-4d4d-bcd1-95261ede1151","driverUuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","partnerUuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","durationInSeconds":1684,"distance":5.5266750655,"fare":189.66,"flowType":"UberX","currencyCode":"INR","begintripAddress":"Gents Hostel 6 And Gym Ln, AIIMS Campus, Ansari Nagar East, New Delhi, Delhi 110029, India","dropoffAddress":"Plot No. 45, District Centre, Near Intercontinental Hotel, Nehru Place, Nehru Place, New Delhi, Delhi 110019, India","clientName":null,"driverName":"Janardan Shukla","vehicleLicensePlate":"DL1RTB8063"},{"uuid":"4b52a43b-ec28-41d5-b877-f3370d7dfa44","status":"DRIVER_CANCELED","requestTime":"2017-02-06T07:56:04.000Z","beginTripTime":null,"dropoffTime":null,"clientUuid":"7d847beb-7e96-4198-82af-6a2dbfa8a2ff","driverUuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","partnerUuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","durationInSeconds":0,"distance":0,"fare":0,"flowType":"UberX","currencyCode":"INR","begintripAddress":null,"dropoffAddress":"Amar Colony, Lajpat Nagar 4, New Delhi, Delhi 110024, India","clientName":null,"driverName":"Janardan Shukla","vehicleLicensePlate":"DL1RTB8063"},{"uuid":"8812b12d-572c-4583-bdce-782e2224e6ae","status":"COMPLETED","requestTime":"2017-02-06T05:14:33.000Z","beginTripTime":"2017-02-06T05:30:41.000Z","dropoffTime":"2017-02-06T06:16:39.000Z","clientUuid":"c6698489-3b7b-4d45-9516-5d0d7cc1ac31","driverUuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","partnerUuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","durationInSeconds":2757,"distance":13.5888289476,"fare":364.38,"flowType":"UberX","currencyCode":"INR","begintripAddress":"Crossings Republik Rd, Crossings Republik, Ghaziabad, Uttar Pradesh 201009, India","dropoffAddress":"Noida-Greater Noida Expressway, Sector 128, Noida, Uttar Pradesh 201304, India","clientName":null,"driverName":"Janardan Shukla","vehicleLicensePlate":"DL1RTB8063"},{"uuid":"1c4bf26c-7f27-432c-aa15-41cd1c7d7678","status":"DRIVER_CANCELED","requestTime":"2017-02-06T05:04:36.000Z","beginTripTime":null,"dropoffTime":null,"clientUuid":"6b159eb2-2e15-4335-b5ed-381d3e89b3b1","driverUuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","partnerUuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","durationInSeconds":0,"distance":0,"fare":60,"flowType":"UberX","currencyCode":"INR","begintripAddress":null,"dropoffAddress":"Plot no. 8-A, Sector 62, Block A, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309, India","clientName":null,"driverName":"Janardan Shukla","vehicleLicensePlate":"DL1RTB8063"},{"uuid":"64946f9a-1fff-4723-b71f-17b479cdbd98","status":"COMPLETED","requestTime":"2017-02-06T04:38:28.000Z","beginTripTime":"2017-02-06T04:41:51.000Z","dropoffTime":"2017-02-06T05:04:21.000Z","clientUuid":"18d1e7e0-e761-4ea8-9e8f-69c93776d591","driverUuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","partnerUuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","durationInSeconds":1349,"distance":6.1834957373,"fare":226.83,"flowType":"UberX","currencyCode":"INR","begintripAddress":"B 32, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201309, India","dropoffAddress":"Gaur City 1, Ghaziabad, Uttar Pradesh 201009, India","clientName":null,"driverName":"Janardan Shukla","vehicleLicensePlate":"DL1RTB8063"},{"uuid":"e562eb4d-ccc6-427c-aa09-5be0905aba01","status":"COMPLETED","requestTime":"2017-02-06T03:32:28.000Z","beginTripTime":"2017-02-06T03:47:28.000Z","dropoffTime":"2017-02-06T04:38:02.000Z","clientUuid":"829dd69b-88fb-4aa7-ae78-29cf06c4bf7f","driverUuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","partnerUuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","durationInSeconds":3033,"distance":11.266170168,"fare":564.7,"flowType":"UberX","currencyCode":"INR","begintripAddress":"Raja Dhirsain Marg, Block A, APB Garhi, East of Kailash, New Delhi, Delhi 110048, India","dropoffAddress":"B-13A, Institutional Area, Phase 2, Sector 62, Block B, Industrial Area, Sector 62, Noida, Uttar Pradesh 201301, India","clientName":null,"driverName":"Janardan Shukla","vehicleLicensePlate":"DL1RTB8063"},{"uuid":"2640c691-e776-4e5a-893d-89aba9b78b61","status":"DRIVER_CANCELED","requestTime":"2017-02-06T03:20:34.000Z","beginTripTime":null,"dropoffTime":null,"clientUuid":"dbcb6b37-f18c-4cf5-968a-a84322eee03c","driverUuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","partnerUuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","durationInSeconds":0,"distance":0,"fare":0,"flowType":"UberX","currencyCode":"INR","begintripAddress":null,"dropoffAddress":"601-A, Nehru Place Flyover, Nehru Place, New Delhi, Delhi 110019, India","clientName":null,"driverName":"Janardan Shukla","vehicleLicensePlate":"DL1RTB8063"}]},"timezone":"Asia\u002FColombo","useKilometers":"true"}},"payments":{"isLoading":false},"performance":{"driversData":[{"uuid":"82a3d020-8839-4d13-a3a2-00dce9891106","pictureUrl":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002F3695ff4304008026bc9d.jpeg","name":"Pardeep Kumar","mobile":"+919821067452","licensePlate":null,"realtimeStatus":"OFFLINE","onboardingStatus":"ACTIVE","lastOnlineTime":null,"vehicleUuid":null,"waitlistedByFleet":false},{"uuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","pictureUrl":null,"name":"Balvinder Singh","mobile":"+918557825020","licensePlate":null,"realtimeStatus":null,"onboardingStatus":"ACCEPTED","lastOnlineTime":null,"vehicleUuid":null,"waitlistedByFleet":false},{"uuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","pictureUrl":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002Ffe2b424ab13a5d3456af.jpeg","name":"Janardan Shukla","mobile":"+919821067530","licensePlate":"DL1RTB8063","realtimeStatus":"ONTRIP","onboardingStatus":"ACTIVE","lastOnlineTime":null,"vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","waitlistedByFleet":false}],"data":[{"uuid":"82a3d020-8839-4d13-a3a2-00dce9891106","pictureUrl":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002F3695ff4304008026bc9d.jpeg","name":"Pardeep Kumar","mobile":"+919821067452","licensePlate":null,"realtimeStatus":"OFFLINE","onboardingStatus":"ACTIVE","lastOnlineTime":null,"vehicleUuid":null,"waitlistedByFleet":false},{"uuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","pictureUrl":null,"name":"Balvinder Singh","mobile":"+918557825020","licensePlate":null,"realtimeStatus":null,"onboardingStatus":"ACCEPTED","lastOnlineTime":null,"vehicleUuid":null,"waitlistedByFleet":false},{"uuid":"f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8","pictureUrl":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002Ffe2b424ab13a5d3456af.jpeg","name":"Janardan Shukla","mobile":"+919821067530","licensePlate":"DL1RTB8063","realtimeStatus":"ONTRIP","onboardingStatus":"ACTIVE","lastOnlineTime":null,"vehicleUuid":"d57ef0bf-fb85-3f95-8014-be1775281bf4","waitlistedByFleet":false}],"tableState":{"fullSet":true,"searchableFields":["name","mobile"],"allServerItems":[{"uuid":{},"name":{"text":"Balvinder Singh","value":"Balvinder Singh","href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Fundefined","hrefTarget":"_blank"},"tripCount":{"value":null},"mobile":{"text":"+918557825020","value":"+918557825020"},"acceptanceRate":{"text":"—","value":null},"completionRate":{"text":"—","value":null},"grossFares":{"text":"—","value":"—","csvOverride":"—"},"cashCollected":{"text":"—","value":"—","csvOverride":"—"},"hoursOnline":{"text":"  0m 0s","value":null},"driverRating":{"text":"—","value":null},"avatar":{"text":null},"hidden":false},{"uuid":{},"name":{"text":"Janardan Shukla","value":"Janardan Shukla","href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Fundefined","hrefTarget":"_blank"},"tripCount":{"value":null},"mobile":{"text":"+919821067530","value":"+919821067530"},"acceptanceRate":{"text":"—","value":null},"completionRate":{"text":"—","value":null},"grossFares":{"text":"—","value":"—","csvOverride":"—"},"cashCollected":{"text":"—","value":"—","csvOverride":"—"},"hoursOnline":{"text":"  0m 0s","value":null},"driverRating":{"text":"—","value":null},"avatar":{"text":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002Ffe2b424ab13a5d3456af.jpeg"},"hidden":false},{"uuid":{},"name":{"text":"Pardeep Kumar","value":"Pardeep Kumar","href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Fundefined","hrefTarget":"_blank"},"tripCount":{"value":null},"mobile":{"text":"+919821067452","value":"+919821067452"},"acceptanceRate":{"text":"—","value":null},"completionRate":{"text":"—","value":null},"grossFares":{"text":"—","value":"—","csvOverride":"—"},"cashCollected":{"text":"—","value":"—","csvOverride":"—"},"hoursOnline":{"text":"  0m 0s","value":null},"driverRating":{"text":"—","value":null},"avatar":{"text":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002F3695ff4304008026bc9d.jpeg"},"hidden":false}],"showPerPage":10,"curPageNum":1,"hideDropDown":true,"hideSuggestion":false,"hoverFieldName":"","searchVal":"","sortField":{"name":"tripCount","ascending":false},"perPageOptions":[10,20,50],"headers":[{"name":"avatar","isAvatar":true,"downloadable":false,"style":{"width":"50px"}},{"name":"name","value":"Name","sortable":true,"itemClassNames":"text--truncate","downloadable":true,"style":{"width":"250px"}},{"name":"tripCount","value":"Trips","sortable":true,"itemClassNames":"","downloadable":true,"style":{"width":"130px"}},{"name":"acceptanceRate","value":"Acceptance Rate","sortable":true,"itemClassNames":"","downloadable":true,"style":{"width":"170px"}},{"name":"completionRate","value":"Completion Rate","sortable":true,"itemClassNames":"","downloadable":true,"style":{"width":"170px"}},{"name":"hoursOnline","value":"Hours Online","sortable":true,"itemClassNames":"","downloadable":true,"style":{"width":"150px"}},{"name":"driverRating","value":"Lifetime Rating","sortable":true,"itemClassNames":"","downloadable":true,"style":{"width":"160px"}},{"name":"grossFares","value":"Gross Fares","sortable":false,"itemClassNames":"","downloadable":true,"style":{"width":"130px"}},{"name":"cashCollected","value":"Cash Collected","sortable":false,"itemClassNames":"","downloadable":true,"style":{"width":"160px"}}],"isTableExpandable":false,"placeholder":"Search for a driver by name, uuid or mobile","searchBoxClassNames":"","hideDownloadCSV":true,"downloadCSVType":"performance","downloadLabel":"Download CSV","downloadFileName":"driver_performance.csv","needToReCompute":true,"showProgressBar":false,"progressBarPercentage":"0%","metricsSummary":[[{"name":"Gross Fares","value":"0.00","nameClass":"layout__item three-eighths palm-one-half primary-font--semibold","valueClass":"text-uber-blue layout__item one-eighth palm-one-half hard primary-font--semibold"},{"name":"Trips","value":"0","nameClass":"layout__item three-eighths palm-one-half primary-font--semibold","valueClass":"text-uber-blue layout__item one-eighth palm-one-half hard primary-font--semibold"}],[{"name":"Cash Collected","value":"0.00","nameClass":"layout__item three-eighths palm-one-half primary-font--semibold","valueClass":"text-uber-blue layout__item one-eighth palm-one-half hard primary-font--semibold"},{"name":"Hours Online","value":"0","nameClass":"layout__item three-eighths palm-one-half primary-font--semibold","valueClass":"text-uber-blue layout__item one-eighth palm-one-half hard primary-font--semibold"}]],"curPageTableItems":[{"uuid":{},"name":{"text":"Balvinder Singh","value":"Balvinder Singh","href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Fundefined","hrefTarget":"_blank"},"tripCount":{"value":null},"mobile":{"text":"+918557825020","value":"+918557825020"},"acceptanceRate":{"text":"—","value":null},"completionRate":{"text":"—","value":null},"grossFares":{"text":"—","value":"—","csvOverride":"—"},"cashCollected":{"text":"—","value":"—","csvOverride":"—"},"hoursOnline":{"text":"  0m 0s","value":null},"driverRating":{"text":"—","value":null},"avatar":{"text":null},"hidden":false},{"uuid":{},"name":{"text":"Janardan Shukla","value":"Janardan Shukla","href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Fundefined","hrefTarget":"_blank"},"tripCount":{"value":null},"mobile":{"text":"+919821067530","value":"+919821067530"},"acceptanceRate":{"text":"—","value":null},"completionRate":{"text":"—","value":null},"grossFares":{"text":"—","value":"—","csvOverride":"—"},"cashCollected":{"text":"—","value":"—","csvOverride":"—"},"hoursOnline":{"text":"  0m 0s","value":null},"driverRating":{"text":"—","value":null},"avatar":{"text":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002Ffe2b424ab13a5d3456af.jpeg"},"hidden":false},{"uuid":{},"name":{"text":"Pardeep Kumar","value":"Pardeep Kumar","href":"https:\u002F\u002Fpartners.uber.com\u002Fp3\u002Fdrivers\u002Fprofile\u002Fd\u002Fundefined","hrefTarget":"_blank"},"tripCount":{"value":null},"mobile":{"text":"+919821067452","value":"+919821067452"},"acceptanceRate":{"text":"—","value":null},"completionRate":{"text":"—","value":null},"grossFares":{"text":"—","value":"—","csvOverride":"—"},"cashCollected":{"text":"—","value":"—","csvOverride":"—"},"hoursOnline":{"text":"  0m 0s","value":null},"driverRating":{"text":"—","value":null},"avatar":{"text":"https:\u002F\u002Fd1w2poirtb3as9.cloudfront.net\u002F3695ff4304008026bc9d.jpeg"},"hidden":false}],"numPages":1}},"statements":{"isLoading":false},"globalAlerts":{},"addDriver":{"canSubmit":false,"fields":{"firstName":{"value":""},"lastName":{"value":""},"email":{"value":""},"country":{"value":""},"mobile":{"value":""},"countryCode":{"value":0},"countryIso":{"value":""},"language1":{"value":""},"language2":{"value":""},"language3":{"value":""},"password":{"value":""}}},"updateDriverStatus":{},"permissions":{"isLoading":false},"bedrock":{"manifest":{"javascripts\u002Fmain.js":"https:\u002F\u002Fd3i4yxtzktqr9n.cloudfront.net\u002Fweb-fleet-manager\u002Fjavascripts\u002Fmain-eb5e621b3d.js","static\u002Ffavicon.ico":"https:\u002F\u002Fd3i4yxtzktqr9n.cloudfront.net\u002Fweb-fleet-manager\u002Fstatic\u002Ffavicon-b4656402d0.ico","static\u002Fsuperfine-overrides.css":"https:\u002F\u002Fd3i4yxtzktqr9n.cloudfront.net\u002Fweb-fleet-manager\u002Fstatic\u002Fsuperfine-overrides-a55344d9eb.css"},"i18n":{"locale":"en","translations":{"banner.driverstatus.title":"You can only activate drivers that have been deactivated.","buttons.text.cancel":"Cancel","buttons.text.submit":"Submit","datepicker.select.daily":"Daily","datepicker.select.weekly":"Weekly","disclaimers.payments.current":"Numbers on this payment statement are subject to change.","driver":"driver","driver.statuses.applied":"Applied","driver.statuses.pendingOnboarding":"Pending Onboarding","drivers.allDrivers":"All Drivers","drivers.statuses.active":"Active","drivers.statuses.lastOnline":"Last Online","drivers.statuses.lastOnlineLong":"Driver not logged in last 7 days","drivers.statuses.offline":"Offline","drivers.statuses.onTrip":"On Trip","drivers.statuses.online":"Online","drivers.statuses.rejected":"Rejected","drivers.statuses.waitlisted":"Waitlisted","endpoint.getDriverTrips.error":"Unable to fetch driver trips.","endpoint.getEarningsMetrics.error":"Unable to fetch driver earnings metrics.","endpoint.getEarningsMetrics.success":"Performance Data downloaded successfully. The performance metrics table is fully sortable now.","endpoint.getFleetDrivers.error":"Unable to fetch drivers.","endpoint.getFleetTrips.error":"Unable to fetch fleet trips.","endpoint.getPerformanceMetrics.error":"Unable to fetch driver trips metrics.","endpoint.getTripMap.error":"Unable to fetch trip map.","form.deactivateDriver.deactivate":"Deactivate","form.deactivateDriver.header":"Are you sure you want to deactivate ${name}?","form.deactivateDriver.notes.placeholder":"Reasons for deactivation (optional)","forms.addDriver.header":"Add a driver","forms.deactivate.button":"Waitlist","forms.deactivate.header":"Are you sure you want to waitlist ${name}?","forms.deactivate.notes.placeholder":"Reason for waitlisting (required)","forms.deactivate.reasons.carDamage":"Car damage","forms.deactivate.reasons.cashCollection":"Cash collection","forms.deactivate.reasons.other":"Other","forms.deactivate.select.title":"Select reason of deactivation","forms.reactivate.button":"Re-activate","inputs.labels.country":"Country","inputs.labels.email":"Email","inputs.labels.firstName":"First Name","inputs.labels.language":"Language","inputs.labels.lastName":"Last Name","inputs.labels.mobile":"Mobile","inputs.labels.password":"Password","nav.downloads.csv":"Download CSV","nav.dropdowns.statements":"Payment Statement","nav.links.addDriver":"Add new driver","nav.links.drivers":"Drivers","nav.links.liveMap":"Live Map","nav.links.payments":"Payments","nav.links.performance":"Performance","nav.links.profile":"Profile","nav.links.trips":"Trips","nav.links.vehicles":"Vehicles","nav.search.placeholder":"Search for a driver by name, uuid or mobile","pagination.next":"Next","pagination.previous":"Previous","pagination.showPerPage":"Show ${option} per page","rpcs.errors.driver.statuses":"Error fetching driver's statuses","rpcs.errors.general":"Something went wrong, please try again later.","rpcs.errors.last.perform":"In order to perform this action, please refresh the page and try again.","rpcs.errors.timezone":"Unable to fetch timezone.","rpcs.errors.unauthorized":"Unauthorized","rpcs.successes.earnings":"Data downloaded successfully. Performance table is fully sortable now.","site.title":"Uber | Fleet Dashboard","tables.headers.acceptanceRate":"Acceptance Rate","tables.headers.cash":"Cash Collected","tables.headers.completionRate":"Completion Rate","tables.headers.driver":"Driver","tables.headers.driverRating":"Lifetime Rating","tables.headers.fare":"Fare","tables.headers.grossFares":"Gross Fares","tables.headers.incentives":"Incentives","tables.headers.kilometers":"Kilometers","tables.headers.license":"License","tables.headers.mileage":"Mileage","tables.headers.miscPayment":"Misc Payment","tables.headers.mobile":"Mobile","tables.headers.name":"Name","tables.headers.netFares":"Net Fares","tables.headers.netPayout":"Net Payout","tables.headers.realtime":"Realtime","tables.headers.requested":"Requested","tables.headers.status":"Status","tables.headers.supplyHours":"Hours Online","tables.headers.time":"Time","tables.headers.tripCounts":"Trips","tables.headers.tripsPerHour":"Trips per Hour","time.abbr.days":"d","time.abbr.hours":"h","time.abbr.minutes":"m","time.abbr.seconds":"s","trips.statuses.canceled":"Rider Canceled","trips.statuses.completed":"Completed","trips.statuses.driverCanceled":"Driver Canceled","trips.statuses.failed":"Failed","trips.statuses.fareSplit":"Fare Split","trips.statuses.unfulfilled":"Unfulfilled"},"language":"en"},"scripts":[],"version":{"major":14,"minor":23,"patch":0},"appName":"web-fleet-manager","appVersion":"1.0.1","env":"production","csrfToken":"1486379995-01-QSd_jtMJz4jpEu3UMYUzw_AME7fz5H79gJPt0lOoiBI","tokenPath":"\u002Fcsrf-token","clientSentryKey":"\u002F\u002Fee06eec7cf3e408aa75514b93db9dda0@partners.uber.com\u002Fp3\u002Ffleet-manager\u002Fsentry\u002F1780","routePrefix":"\u002Fp3\u002Ffleet-manager","auth":{"groups":[""],"roles":[""],"uuid":"3380a3e0-939a-4ca1-a232-87cccf908c83","isIOFleet":"false"},"assets":{"iconsVersion":"3.13.0","fontsVersion":"4.0.0","cdnBase":"https:\u002F\u002Fd1a3f4spazzrp4.cloudfront.net","assetBase":"https:\u002F\u002Fd3i4yxtzktqr9n.cloudfront.net\u002Fweb-fleet-manager"},"analytics":{"clientLogging":{"route":"\u002F_log","m3Key":"client-logging"},"clientM3":{"route":"\u002F_m3","m3Key":"client-m3"}},"rpc":{"route":"\u002F_rpc","m3Key":"rpc"},"disableM3Console":true,"disableLoggerConsole":true,"route":"trips"},"routing":{}},"styletronInjectedKeys":["html{height:100%}body{margin:0}","_style_37su0r","_style_4gF8uZ","_style_3CjDXv","_style_1A4poK","_style_lrtsB","_style_2T0IvR","_style_4AGN0S"]}
+  </script>
+  <style data-styletron="">
+   html{height:100%}body{margin:0}._style_37su0r{font-family:ff-clan-web-pro,"Helvetica Neue",Helvetica,sans-serif!important;font-weight:400!important}._style_4gF8uZ{color:silver!important;fill:currentColor!important}._style_3CjDXv:hover{background-color:#0E7D83!important;border-color:#0E7D83!important}._style_3CjDXv:focus{background-color:#0E7D83!important;border-color:#0E7D83!important}._style_3CjDXv:active{background-color:#0E7D83!important;border-color:#0E7D83!important}._style_1A4poK:hover{background-color:transparent!important;text-decoration:underline!important;color:#11939A!important;border:2px solid transparent!important}._style_1A4poK:focus{background-color:transparent!important;text-decoration:underline!important;color:#11939A!important;border:2px solid transparent!important}._style_1A4poK:active{background-color:transparent!important;text-decoration:underline!important;color:#11939A!important;border:2px solid transparent!important}@media only screen and (max-width:575px){._style_lrtsB{display:none!important}}@media only screen and (max-width:575px){._style_2T0IvR{border-top:1px solid #E5E5E4!important;border-bottom:1px solid #E5E5E4!important;border-right:1px solid #E5E5E4!important}}._style_4AGN0S:first-of-type{border-left:0!important}@media only screen and (max-width:575px){._style_4AGN0S{display:block!important;padding-bottom:6px!important;padding-top:0!important;border-top:0!important;border-bottom:0!important;border-left:1px solid #E5E5E4!important}}@media only screen and (max-width:575px){._style_4AGN0S:first-of-type{padding-top:16px!important;border-left:1px solid #E5E5E4!important}}@media only screen and (max-width:575px){._style_4AGN0S:last-child{padding-bottom:16px!important}}
+  </style>
+ </head>
+ <body>
+  <div id="app-content">
+   <div class="_style_37su0r" data-react-checksum="1554771802" data-reactid="1" data-reactroot="">
+    <div data-reactid="2">
+     <!-- react-empty: 3 -->
+     <div class="app-wrapper" data-reactid="4">
+      <nav data-reactid="5">
+       <header class="push-tiny--bottom" data-reactid="6">
+        <div class="partners-top-nav" data-reactid="7" style="min-width:300px;width:100%;overflow:hidden;background-color:white;">
+         <div class="layout layout--flush push-tiny--ends" data-reactid="8">
+          <div class="layout__item desk-and-up-one-sixth portable-one-eighth" data-reactid="9">
+           <a class="text-black position--relative " data-reactid="10">
+            <i class="icon icon_menu delta push-small--right push-tiny--left" data-reactid="11" icon="menu">
+            </i>
+           </a>
+          </div>
+          <div class="layout__item desk-and-up-five-sixths portable-seven-eighths" data-reactid="12">
+           <div class="layout text--nowrap" data-reactid="13">
+            <div class="layout__item desk-and-up-one-half portable-one-whole" data-reactid="14">
+             <i class="icon icon_uber zeta push-tiny--right position--relative" data-reactid="15" icon="uber" style="margin-left:0;transition:margin-left 0.1s;">
+             </i>
+             <span class="zeta" data-reactid="16">
+             </span>
+            </div>
+            <div class="layout__item one-half text--right" data-reactid="17">
+             <a class="primary-font--bold text-black text--uppercase push-large--right small" data-reactid="18" href="https://help.uber.com/partners">
+             </a>
+             <a class="primary-font--bold text-black text--uppercase push-large--right small" data-reactid="19" style="cursor:pointer;">
+              <!-- react-text: 20 -->
+              <!-- /react-text -->
+              <i class="icon icon_down-arrow text-uber-blue" data-reactid="21" icon="down-arrow">
+              </i>
+             </a>
+             <div class="text--left push-large--right soft-small" data-reactid="22" style="right:0;position:absolute;z-index:99;background-color:#fff;width:350px;box-shadow:0px 0px 10px 2px rgba(0,0,0,0.25);margin-top:10px;display:none;">
+              <div class="layout" data-reactid="23">
+               <div class="layout__item one-third" data-reactid="24">
+                <div class="avatar avatar--medium" data-reactid="25">
+                 <img class="" data-reactid="26" src=" "/>
+                </div>
+               </div>
+               <div class="layout__item two-thirds" data-reactid="27">
+                <div data-reactid="28">
+                </div>
+                <div class="hidden strong small text-uber-black-60" data-reactid="29" style="white-space:normal;">
+                 <i class="icon icon_briefcase" data-reactid="30" height="1.0em" style="color:#A6A5A5;margin-right:0.5em;">
+                 </i>
+                </div>
+                <div data-reactid="31" style='font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;color:#000000;font-size:12px;'>
+                 <span data-reactid="32" style="margin-right:0.2857142857142857em;">
+                  0
+                 </span>
+                 <div data-reactid="33" style="line-height:1;display:inline-block;position:relative;vertical-align:text-top;">
+                  <svg class=" _style_4gF8uZ" data-reactid="34" height="1em" viewbox="0 0 64 64" width="1em">
+                   <path d="M33.0294456,6.7429247l6.470562,19.4485054H58.913147c1.0624924,0,1.4915848,1.3692112,0.6191254,1.9755993 L43.8387222,38.8082695l5.9795151,17.7380257c0.3320847,0.9988136-0.809864,1.8377571-1.6637383,1.2222786L32.0000381,46.822506 L15.8462124,57.7889938c-0.8535786,0.6163712-1.996439-0.2221985-1.6646013-1.2213936l5.8605986-17.8475189l-15.574482-10.553051 c-0.8724597-0.6063881-0.443368-1.9755993,0.6191254-1.9755993h19.4131393l6.4705505-19.4485054 C31.2996387,5.7526717,32.7003517,5.7526717,33.0294456,6.7429247z" data-reactid="35">
+                   </path>
+                  </svg>
+                  <svg class=" _style_4gF8uZ" data-reactid="36" height="1em" viewbox="0 0 64 64" width="1em">
+                   <path d="M33.0294456,6.7429247l6.470562,19.4485054H58.913147c1.0624924,0,1.4915848,1.3692112,0.6191254,1.9755993 L43.8387222,38.8082695l5.9795151,17.7380257c0.3320847,0.9988136-0.809864,1.8377571-1.6637383,1.2222786L32.0000381,46.822506 L15.8462124,57.7889938c-0.8535786,0.6163712-1.996439-0.2221985-1.6646013-1.2213936l5.8605986-17.8475189l-15.574482-10.553051 c-0.8724597-0.6063881-0.443368-1.9755993,0.6191254-1.9755993h19.4131393l6.4705505-19.4485054 C31.2996387,5.7526717,32.7003517,5.7526717,33.0294456,6.7429247z" data-reactid="37">
+                   </path>
+                  </svg>
+                  <svg class=" _style_4gF8uZ" data-reactid="38" height="1em" viewbox="0 0 64 64" width="1em">
+                   <path d="M33.0294456,6.7429247l6.470562,19.4485054H58.913147c1.0624924,0,1.4915848,1.3692112,0.6191254,1.9755993 L43.8387222,38.8082695l5.9795151,17.7380257c0.3320847,0.9988136-0.809864,1.8377571-1.6637383,1.2222786L32.0000381,46.822506 L15.8462124,57.7889938c-0.8535786,0.6163712-1.996439-0.2221985-1.6646013-1.2213936l5.8605986-17.8475189l-15.574482-10.553051 c-0.8724597-0.6063881-0.443368-1.9755993,0.6191254-1.9755993h19.4131393l6.4705505-19.4485054 C31.2996387,5.7526717,32.7003517,5.7526717,33.0294456,6.7429247z" data-reactid="39">
+                   </path>
+                  </svg>
+                  <svg class=" _style_4gF8uZ" data-reactid="40" height="1em" viewbox="0 0 64 64" width="1em">
+                   <path d="M33.0294456,6.7429247l6.470562,19.4485054H58.913147c1.0624924,0,1.4915848,1.3692112,0.6191254,1.9755993 L43.8387222,38.8082695l5.9795151,17.7380257c0.3320847,0.9988136-0.809864,1.8377571-1.6637383,1.2222786L32.0000381,46.822506 L15.8462124,57.7889938c-0.8535786,0.6163712-1.996439-0.2221985-1.6646013-1.2213936l5.8605986-17.8475189l-15.574482-10.553051 c-0.8724597-0.6063881-0.443368-1.9755993,0.6191254-1.9755993h19.4131393l6.4705505-19.4485054 C31.2996387,5.7526717,32.7003517,5.7526717,33.0294456,6.7429247z" data-reactid="41">
+                   </path>
+                  </svg>
+                  <svg class=" _style_4gF8uZ" data-reactid="42" height="1em" viewbox="0 0 64 64" width="1em">
+                   <path d="M33.0294456,6.7429247l6.470562,19.4485054H58.913147c1.0624924,0,1.4915848,1.3692112,0.6191254,1.9755993 L43.8387222,38.8082695l5.9795151,17.7380257c0.3320847,0.9988136-0.809864,1.8377571-1.6637383,1.2222786L32.0000381,46.822506 L15.8462124,57.7889938c-0.8535786,0.6163712-1.996439-0.2221985-1.6646013-1.2213936l5.8605986-17.8475189l-15.574482-10.553051 c-0.8724597-0.6063881-0.443368-1.9755993,0.6191254-1.9755993h19.4131393l6.4705505-19.4485054 C31.2996387,5.7526717,32.7003517,5.7526717,33.0294456,6.7429247z" data-reactid="43">
+                   </path>
+                  </svg>
+                 </div>
+                </div>
+                <a data-reactid="44" href="/profile">
+                 <button class="_style_3CjDXv" data-reactid="45" style='-webkit-transition:all 400ms ease;-moz-box-sizing:border-box;color:#FFFFFF;display:inline-block;vertical-align:middle;text-align:center;margin:0;cursor:pointer;overflow:visible;background-color:#11939A;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:600;font-size:10px;text-decoration:none;border-radius:0px;border:2px solid #11939A;text-transform:uppercase;outline:none;line-height:1.6;position:relative;transition:all 400ms ease;box-sizing:border-box;padding:3px 10px 2px;'>
+                 </button>
+                </a>
+               </div>
+              </div>
+              <hr class="push-tiny--ends" data-reactid="46"/>
+              <div data-reactid="47">
+               <a class="primary-font text-uber-black-40" data-reactid="48" href="https://help.uber.com/partners">
+               </a>
+              </div>
+              <div data-reactid="49">
+               <a class="primary-font text-uber-black-40" data-reactid="50" href="/p3/logout">
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </div>
+         <div data-reactid="51">
+         </div>
+         <div data-reactid="52">
+         </div>
+         <div data-reactid="53">
+         </div>
+         <div class="underlay" data-reactid="54" style="width:100%;height:100%;position:absolute;top:0px;left:0px;background-color:#444;opacity:0.3;display:none;">
+         </div>
+        </div>
+       </header>
+       <div data-reactid="55">
+        <ul class="tabs palm-tabs--vertical flush" data-reactid="56" id="subNav" style="transition:padding-left 0.1s;padding-left:150px;">
+         <li class="tabs__item" data-reactid="57">
+          <a class="tabs__link" data-reactid="58" href="/p3/fleet-manager/drivers">
+           Drivers
+          </a>
+         </li>
+         <li class="tabs__item" data-reactid="59">
+          <a class="tabs__link" data-reactid="60" href="/p3/fleet-manager/performance">
+           Performance
+          </a>
+         </li>
+         <li class="tabs__item" data-reactid="61">
+          <a class="tabs__link active" data-reactid="62" href="/p3/fleet-manager/trips">
+           Trips
+          </a>
+         </li>
+         <li class="tabs__item" data-reactid="63">
+          <a class="tabs__link" data-reactid="64" href="/p3/fleet-manager/payments">
+           Payments
+          </a>
+         </li>
+         <li class="tabs__item" data-reactid="65">
+          <a class="tabs__link" data-reactid="66" href="/p3/fleet/live">
+           Live Map
+          </a>
+         </li>
+         <li class="flush--bottom push-huge--right palm-soft float--right portable-float-none" data-reactid="67" style="width:300px;vertical-align:bottom;position:relative;">
+          <div class="layout__item" data-reactid="68">
+           <div class="primary-font small text-uber-black-40 push-tiny--left" data-reactid="69">
+            Time
+           </div>
+           <div class="cursor--pointer primary-font--semibold push-tiny--left" data-reactid="70">
+            <!-- react-text: 71 -->
+            02/06/2017
+            <!-- /react-text -->
+            <!-- react-text: 72 -->
+            -
+            <!-- /react-text -->
+            <!-- react-text: 73 -->
+            02/06/2017
+            <!-- /react-text -->
+            <span class="float--right push-tiny--right text-uber-blue" data-reactid="74">
+             ▾
+            </span>
+           </div>
+           <div class="r-popover r-popover--top-header r-popover__arrow-top hidden" data-reactid="75" style="top:56px;">
+            <div class="datepicker flush" data-reactid="76">
+             <div class="datepicker__header soft-tiny--sides" data-reactid="77">
+              <a class="float--left soft-tiny--top flush hard--bottom" data-reactid="78">
+               <i class="icon icon_left-arrow text-uber-white-120 cursor--pointer epsilon text--center datepicker__arrow-icon" data-reactid="79">
+               </i>
+              </a>
+              <a class="float--right soft-tiny--top flush hard--bottom" data-reactid="80">
+               <i class="icon icon_right-arrow text-uber-white-120 cursor--pointer epsilon text--center datepicker__arrow-icon" data-reactid="81">
+               </i>
+              </a>
+              <p class="primary-font--bold text--center flush soft-micro--top datapicker__title" data-reactid="82">
+               February 2017
+              </p>
+             </div>
+             <table class="datepicker__cal flush" data-reactid="83">
+              <thead class="datepicker__cal__header" data-reactid="84">
+               <tr class="datepicker__cal__header__row" data-reactid="85">
+                <th class="flush hard text--center" data-reactid="86">
+                 <span class="label" data-reactid="87">
+                  Mon
+                 </span>
+                </th>
+                <th class="flush hard text--center" data-reactid="88">
+                 <span class="label" data-reactid="89">
+                  Tue
+                 </span>
+                </th>
+                <th class="flush hard text--center" data-reactid="90">
+                 <span class="label" data-reactid="91">
+                  Wed
+                 </span>
+                </th>
+                <th class="flush hard text--center" data-reactid="92">
+                 <span class="label" data-reactid="93">
+                  Thu
+                 </span>
+                </th>
+                <th class="flush hard text--center" data-reactid="94">
+                 <span class="label" data-reactid="95">
+                  Fri
+                 </span>
+                </th>
+                <th class="flush hard text--center" data-reactid="96">
+                 <span class="label" data-reactid="97">
+                  Sat
+                 </span>
+                </th>
+                <th class="flush hard text--center" data-reactid="98">
+                 <span class="label" data-reactid="99">
+                  Sun
+                 </span>
+                </th>
+               </tr>
+              </thead>
+              <tbody class="datepicker__cal__body" data-reactid="100">
+               <tr class="datepicker__cal__row" data-reactid="101">
+                <td class="datepicker__cal__cell cursor--pointer text--center" data-reactid="102">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="103">
+                  30
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell cursor--pointer text--center" data-reactid="104">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="105">
+                  31
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell cursor--pointer text--center" data-reactid="106">
+                 <span class="datepicker__cal__label transition" data-reactid="107">
+                  1
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell cursor--pointer text--center" data-reactid="108">
+                 <span class="datepicker__cal__label transition" data-reactid="109">
+                  2
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell cursor--pointer text--center" data-reactid="110">
+                 <span class="datepicker__cal__label transition" data-reactid="111">
+                  3
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell cursor--pointer text--center" data-reactid="112">
+                 <span class="datepicker__cal__label transition" data-reactid="113">
+                  4
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell cursor--pointer text--center" data-reactid="114">
+                 <span class="datepicker__cal__label transition" data-reactid="115">
+                  5
+                 </span>
+                </td>
+               </tr>
+               <tr class="datepicker__cal__row" data-reactid="116">
+                <td class="datepicker__cal__cell cursor--pointer text--center" data-reactid="117">
+                 <span class="datepicker__cal__label transition active datepicker__cal__label--today datepicker__cal__label--range-start datepicker__cal__label--range-end" data-reactid="118">
+                  6
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="119">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="120" style="pointer-events:none;">
+                  7
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="121">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="122" style="pointer-events:none;">
+                  8
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="123">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="124" style="pointer-events:none;">
+                  9
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="125">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="126" style="pointer-events:none;">
+                  10
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="127">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="128" style="pointer-events:none;">
+                  11
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="129">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="130" style="pointer-events:none;">
+                  12
+                 </span>
+                </td>
+               </tr>
+               <tr class="datepicker__cal__row" data-reactid="131">
+                <td class="datepicker__cal__cell text--center" data-reactid="132">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="133" style="pointer-events:none;">
+                  13
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="134">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="135" style="pointer-events:none;">
+                  14
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="136">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="137" style="pointer-events:none;">
+                  15
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="138">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="139" style="pointer-events:none;">
+                  16
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="140">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="141" style="pointer-events:none;">
+                  17
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="142">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="143" style="pointer-events:none;">
+                  18
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="144">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="145" style="pointer-events:none;">
+                  19
+                 </span>
+                </td>
+               </tr>
+               <tr class="datepicker__cal__row" data-reactid="146">
+                <td class="datepicker__cal__cell text--center" data-reactid="147">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="148" style="pointer-events:none;">
+                  20
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="149">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="150" style="pointer-events:none;">
+                  21
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="151">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="152" style="pointer-events:none;">
+                  22
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="153">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="154" style="pointer-events:none;">
+                  23
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="155">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="156" style="pointer-events:none;">
+                  24
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="157">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="158" style="pointer-events:none;">
+                  25
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="159">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="160" style="pointer-events:none;">
+                  26
+                 </span>
+                </td>
+               </tr>
+               <tr class="datepicker__cal__row" data-reactid="161">
+                <td class="datepicker__cal__cell text--center" data-reactid="162">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="163" style="pointer-events:none;">
+                  27
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="164">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="165" style="pointer-events:none;">
+                  28
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="166">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="167" style="pointer-events:none;">
+                  1
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="168">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="169" style="pointer-events:none;">
+                  2
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="170">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="171" style="pointer-events:none;">
+                  3
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="172">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="173" style="pointer-events:none;">
+                  4
+                 </span>
+                </td>
+                <td class="datepicker__cal__cell text--center" data-reactid="174">
+                 <span class="datepicker__cal__label transition text-uber-white-60" data-reactid="175" style="pointer-events:none;">
+                  5
+                 </span>
+                </td>
+               </tr>
+              </tbody>
+             </table>
+             <div class="layout__item one-whole" data-reactid="176">
+              <div class="layout__item one-half soft-tiny--top" data-reactid="177">
+               <div class="" data-reactid="178">
+                <input checked="" class="radio-input" data-reactid="179" id="select-daily" type="radio"/>
+                <label class="radio" data-reactid="180" for="select-daily" style='-moz-box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;font-size:12px;line-height:24px;text-align:none;color:#3e3e3e;box-sizing:border-box;'>
+                 <!-- react-text: 181 -->
+                 Daily
+                 <!-- /react-text -->
+                </label>
+               </div>
+              </div>
+              <div class="layout__item one-half soft-tiny--top" data-reactid="182">
+               <div class="" data-reactid="183">
+                <input class="radio-input" data-reactid="184" id="select-weekly" type="radio"/>
+                <label class="radio" data-reactid="185" for="select-weekly" style='-moz-box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;font-size:12px;line-height:24px;text-align:none;color:#3e3e3e;box-sizing:border-box;'>
+                 <!-- react-text: 186 -->
+                 Weekly
+                 <!-- /react-text -->
+                </label>
+               </div>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+         </li>
+         <!-- react-text: 187 -->
+         <!-- /react-text -->
+        </ul>
+       </div>
+      </nav>
+      <div data-reactid="188">
+      </div>
+      <div class="" data-reactid="189">
+       <div data-reactid="190">
+        <div class="bg-uber-white-10 soft-huge--sides palm-soft--sides soft--ends layout layout--middle push-small--bottom" data-reactid="191">
+         <div class="layout__item two-fifths portable-one-whole" data-reactid="192">
+          <div class="input-group icon-input right" data-reactid="193">
+           <input class="flush" data-reactid="194" placeholder="Search for a driver by name, uuid or mobile" value=""/>
+           <span class="icon-input__icon icon icon_search" data-reactid="195">
+           </span>
+           <div class="hidden bg-white" data-reactid="196" style="z-index:50;position:absolute;width:100%;border-left:1px solid #E5E5E4;border-right:1px solid #E5E5E4;">
+            <table class="table--bordered table--bordered-horizontal flush" data-reactid="197">
+             <tbody data-reactid="198">
+             </tbody>
+            </table>
+           </div>
+          </div>
+         </div>
+         <div class="layout__item one-fifth hidden--portable" data-reactid="199">
+          <button class="hidden _style_1A4poK" data-reactid="200" style='-webkit-transition:all 400ms ease;-moz-box-sizing:border-box;color:#11939A;display:inline-block;vertical-align:middle;text-align:center;margin:0;cursor:pointer;overflow:visible;background-color:transparent;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:600;font-size:14px;text-decoration:none;border-radius:0px;border:2px solid transparent;text-transform:uppercase;outline:none;line-height:18px;position:relative;transition:all 400ms ease;box-sizing:border-box;padding:11px 20px;'>
+           <span class="icon icon_download" data-reactid="201" style="margin-right:8px;">
+           </span>
+           <span data-reactid="202">
+            Download CSV
+           </span>
+          </button>
+         </div>
+        </div>
+        <div class="palm-soft--sides soft-huge--sides" data-reactid="203">
+         <div data-reactid="204" style="overflow-x:scroll;">
+          <table data-reactid="205" style='-moz-box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-size:14px;line-height:24px;width:100%;box-sizing:border-box;margin-top:0;margin-bottom:0;margin-left:0;font-weight:400;padding-top:0;padding-bottom:0;padding-left:0;padding-right:0;border-collapse:collapse;border-spacing:0;table-layout:fixed;margin-right:0;'>
+           <thead class="_style_lrtsB" data-reactid="206">
+            <tr data-reactid="207" style="border-bottom:2px solid #D6D6D5;">
+             <th data-reactid="208" style='-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#000000;box-sizing:border-box;padding:12px;font-weight:500;border-left:0;border-right:0;width:30px;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;'>
+             </th>
+             <th data-reactid="209" style='-moz-box-sizing:border-box;text-align:left;padding:12px;border-color:#E5E5E4;color:#000000;box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;border-left:0;border-right:0;'>
+              <!-- react-text: 210 -->
+              Requested
+              <!-- /react-text -->
+             </th>
+             <th data-reactid="211" style='-moz-box-sizing:border-box;text-align:left;padding:12px;border-color:#E5E5E4;color:#000000;box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;border-left:0;border-right:0;'>
+              <!-- react-text: 212 -->
+              Driver
+              <!-- /react-text -->
+             </th>
+             <th data-reactid="213" style='-moz-box-sizing:border-box;text-align:left;padding:12px;border-color:#E5E5E4;color:#000000;box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;border-left:0;border-right:0;'>
+              <!-- react-text: 214 -->
+              License
+              <!-- /react-text -->
+             </th>
+             <th data-reactid="215" style='-moz-box-sizing:border-box;text-align:left;padding:12px;border-color:#E5E5E4;color:#000000;box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;border-left:0;border-right:0;'>
+              <!-- react-text: 216 -->
+              Fare
+              <!-- /react-text -->
+             </th>
+             <th data-reactid="217" style='-moz-box-sizing:border-box;text-align:left;padding:12px;border-color:#E5E5E4;color:#000000;box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;border-left:0;border-right:0;'>
+              <!-- react-text: 218 -->
+              Time
+              <!-- /react-text -->
+             </th>
+             <th data-reactid="219" style='-moz-box-sizing:border-box;text-align:left;padding:12px;border-color:#E5E5E4;color:#000000;box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;border-left:0;border-right:0;'>
+              <!-- react-text: 220 -->
+              Kilometers
+              <!-- /react-text -->
+             </th>
+             <th data-reactid="221" style='-moz-box-sizing:border-box;text-align:left;padding:12px;border-color:#E5E5E4;color:#000000;box-sizing:border-box;font-family:ff-clan-web-pro, "Helvetica Neue", Helvetica, sans-serif;font-weight:500;border-left:0;border-right:0;'>
+              <!-- react-text: 222 -->
+              Status
+              <!-- /react-text -->
+             </th>
+            </tr>
+           </thead>
+           <tbody data-reactid="223" style="border-top:1px solid #E5E5E4;border-bottom:1px solid #E5E5E4;height:auto;">
+            <tr class="cursor--pointer _style_2T0IvR" data-reactid="224">
+             <td class="_style_4AGN0S" data-reactid="225" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <i class="icon icon_right-arrow" data-reactid="226">
+              </i>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="227" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="228">
+               <span data-reactid="229" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="230">
+                 <!-- react-text: 231 -->
+                 Requested
+                 <!-- /react-text -->
+                 <!-- react-text: 232 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="233" style="min-width:100px;margin-right:12px;">
+                02/06/2017 4:35 PM +0530
+               </div>
+               <!-- react-text: 234 -->
+               <!-- /react-text -->
+               <!-- react-empty: 235 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="236" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="237">
+               <span data-reactid="238" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="239">
+                 <!-- react-text: 240 -->
+                 Driver
+                 <!-- /react-text -->
+                 <!-- react-text: 241 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="242" style="min-width:100px;margin-right:12px;">
+                <a class="text-link" data-reactid="243" href="https://partners.uber.com/p3/drivers/profile/d/f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8" target="_blank">
+                 <!-- react-text: 244 -->
+                 Janardan Shukla
+                 <!-- /react-text -->
+                </a>
+               </div>
+               <!-- react-text: 245 -->
+               <!-- /react-text -->
+               <!-- react-empty: 246 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="247" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="248">
+               <span data-reactid="249" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="250">
+                 <!-- react-text: 251 -->
+                 License
+                 <!-- /react-text -->
+                 <!-- react-text: 252 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="253" style="min-width:100px;margin-right:12px;">
+                DL1RTB8063
+               </div>
+               <!-- react-text: 254 -->
+               <!-- /react-text -->
+               <!-- react-empty: 255 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="256" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="257">
+               <span data-reactid="258" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="259">
+                 <!-- react-text: 260 -->
+                 Fare
+                 <!-- /react-text -->
+                 <!-- react-text: 261 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="262" style="min-width:100px;margin-right:12px;">
+                —
+               </div>
+               <!-- react-text: 263 -->
+               <!-- /react-text -->
+               <!-- react-empty: 264 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="265" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="266">
+               <span data-reactid="267" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="268">
+                 <!-- react-text: 269 -->
+                 Time
+                 <!-- /react-text -->
+                 <!-- react-text: 270 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="271" style="min-width:100px;margin-right:12px;">
+                0m 0s
+               </div>
+               <!-- react-text: 272 -->
+               <!-- /react-text -->
+               <!-- react-empty: 273 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="274" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="275">
+               <span data-reactid="276" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="277">
+                 <!-- react-text: 278 -->
+                 Kilometers
+                 <!-- /react-text -->
+                 <!-- react-text: 279 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="280" style="min-width:100px;margin-right:12px;">
+                0.00
+               </div>
+               <!-- react-text: 281 -->
+               <!-- /react-text -->
+               <!-- react-empty: 282 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="283" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="284">
+               <span data-reactid="285" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="286">
+                 <!-- react-text: 287 -->
+                 Status
+                 <!-- /react-text -->
+                 <!-- react-text: 288 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="289" style="min-width:100px;margin-right:12px;">
+                rider canceled
+               </div>
+               <!-- react-text: 290 -->
+               <!-- /react-text -->
+               <!-- react-empty: 291 -->
+              </div>
+             </td>
+            </tr>
+            <tr class="cursor--pointer _style_2T0IvR" data-reactid="292">
+             <td class="_style_4AGN0S" data-reactid="293" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <i class="icon icon_right-arrow" data-reactid="294">
+              </i>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="295" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="296">
+               <span data-reactid="297" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="298">
+                 <!-- react-text: 299 -->
+                 Requested
+                 <!-- /react-text -->
+                 <!-- react-text: 300 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="301" style="min-width:100px;margin-right:12px;">
+                02/06/2017 3:51 PM +0530
+               </div>
+               <!-- react-text: 302 -->
+               <!-- /react-text -->
+               <!-- react-empty: 303 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="304" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="305">
+               <span data-reactid="306" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="307">
+                 <!-- react-text: 308 -->
+                 Driver
+                 <!-- /react-text -->
+                 <!-- react-text: 309 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="310" style="min-width:100px;margin-right:12px;">
+                <a class="text-link" data-reactid="311" href="https://partners.uber.com/p3/drivers/profile/d/f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8" target="_blank">
+                 <!-- react-text: 312 -->
+                 Janardan Shukla
+                 <!-- /react-text -->
+                </a>
+               </div>
+               <!-- react-text: 313 -->
+               <!-- /react-text -->
+               <!-- react-empty: 314 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="315" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="316">
+               <span data-reactid="317" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="318">
+                 <!-- react-text: 319 -->
+                 License
+                 <!-- /react-text -->
+                 <!-- react-text: 320 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="321" style="min-width:100px;margin-right:12px;">
+                DL1RTB8063
+               </div>
+               <!-- react-text: 322 -->
+               <!-- /react-text -->
+               <!-- react-empty: 323 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="324" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="325">
+               <span data-reactid="326" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="327">
+                 <!-- react-text: 328 -->
+                 Fare
+                 <!-- /react-text -->
+                 <!-- react-text: 329 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="330" style="min-width:100px;margin-right:12px;">
+                ₹189.66
+               </div>
+               <!-- react-text: 331 -->
+               <!-- /react-text -->
+               <!-- react-empty: 332 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="333" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="334">
+               <span data-reactid="335" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="336">
+                 <!-- react-text: 337 -->
+                 Time
+                 <!-- /react-text -->
+                 <!-- react-text: 338 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="339" style="min-width:100px;margin-right:12px;">
+                28m 4s
+               </div>
+               <!-- react-text: 340 -->
+               <!-- /react-text -->
+               <!-- react-empty: 341 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="342" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="343">
+               <span data-reactid="344" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="345">
+                 <!-- react-text: 346 -->
+                 Kilometers
+                 <!-- /react-text -->
+                 <!-- react-text: 347 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="348" style="min-width:100px;margin-right:12px;">
+                8.89
+               </div>
+               <!-- react-text: 349 -->
+               <!-- /react-text -->
+               <!-- react-empty: 350 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="351" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="352">
+               <span data-reactid="353" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="354">
+                 <!-- react-text: 355 -->
+                 Status
+                 <!-- /react-text -->
+                 <!-- react-text: 356 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="357" style="min-width:100px;margin-right:12px;">
+                completed
+               </div>
+               <!-- react-text: 358 -->
+               <!-- /react-text -->
+               <!-- react-empty: 359 -->
+              </div>
+             </td>
+            </tr>
+            <tr class="cursor--pointer _style_2T0IvR" data-reactid="360">
+             <td class="_style_4AGN0S" data-reactid="361" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <i class="icon icon_right-arrow" data-reactid="362">
+              </i>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="363" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="364">
+               <span data-reactid="365" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="366">
+                 <!-- react-text: 367 -->
+                 Requested
+                 <!-- /react-text -->
+                 <!-- react-text: 368 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="369" style="min-width:100px;margin-right:12px;">
+                02/06/2017 1:26 PM +0530
+               </div>
+               <!-- react-text: 370 -->
+               <!-- /react-text -->
+               <!-- react-empty: 371 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="372" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="373">
+               <span data-reactid="374" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="375">
+                 <!-- react-text: 376 -->
+                 Driver
+                 <!-- /react-text -->
+                 <!-- react-text: 377 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="378" style="min-width:100px;margin-right:12px;">
+                <a class="text-link" data-reactid="379" href="https://partners.uber.com/p3/drivers/profile/d/f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8" target="_blank">
+                 <!-- react-text: 380 -->
+                 Janardan Shukla
+                 <!-- /react-text -->
+                </a>
+               </div>
+               <!-- react-text: 381 -->
+               <!-- /react-text -->
+               <!-- react-empty: 382 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="383" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="384">
+               <span data-reactid="385" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="386">
+                 <!-- react-text: 387 -->
+                 License
+                 <!-- /react-text -->
+                 <!-- react-text: 388 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="389" style="min-width:100px;margin-right:12px;">
+                DL1RTB8063
+               </div>
+               <!-- react-text: 390 -->
+               <!-- /react-text -->
+               <!-- react-empty: 391 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="392" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="393">
+               <span data-reactid="394" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="395">
+                 <!-- react-text: 396 -->
+                 Fare
+                 <!-- /react-text -->
+                 <!-- react-text: 397 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="398" style="min-width:100px;margin-right:12px;">
+                —
+               </div>
+               <!-- react-text: 399 -->
+               <!-- /react-text -->
+               <!-- react-empty: 400 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="401" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="402">
+               <span data-reactid="403" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="404">
+                 <!-- react-text: 405 -->
+                 Time
+                 <!-- /react-text -->
+                 <!-- react-text: 406 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="407" style="min-width:100px;margin-right:12px;">
+                0m 0s
+               </div>
+               <!-- react-text: 408 -->
+               <!-- /react-text -->
+               <!-- react-empty: 409 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="410" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="411">
+               <span data-reactid="412" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="413">
+                 <!-- react-text: 414 -->
+                 Kilometers
+                 <!-- /react-text -->
+                 <!-- react-text: 415 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="416" style="min-width:100px;margin-right:12px;">
+                0.00
+               </div>
+               <!-- react-text: 417 -->
+               <!-- /react-text -->
+               <!-- react-empty: 418 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="419" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="420">
+               <span data-reactid="421" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="422">
+                 <!-- react-text: 423 -->
+                 Status
+                 <!-- /react-text -->
+                 <!-- react-text: 424 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="425" style="min-width:100px;margin-right:12px;">
+                driver canceled
+               </div>
+               <!-- react-text: 426 -->
+               <!-- /react-text -->
+               <!-- react-empty: 427 -->
+              </div>
+             </td>
+            </tr>
+            <tr class="cursor--pointer _style_2T0IvR" data-reactid="428">
+             <td class="_style_4AGN0S" data-reactid="429" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <i class="icon icon_right-arrow" data-reactid="430">
+              </i>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="431" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="432">
+               <span data-reactid="433" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="434">
+                 <!-- react-text: 435 -->
+                 Requested
+                 <!-- /react-text -->
+                 <!-- react-text: 436 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="437" style="min-width:100px;margin-right:12px;">
+                02/06/2017 10:44 AM +0530
+               </div>
+               <!-- react-text: 438 -->
+               <!-- /react-text -->
+               <!-- react-empty: 439 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="440" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="441">
+               <span data-reactid="442" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="443">
+                 <!-- react-text: 444 -->
+                 Driver
+                 <!-- /react-text -->
+                 <!-- react-text: 445 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="446" style="min-width:100px;margin-right:12px;">
+                <a class="text-link" data-reactid="447" href="https://partners.uber.com/p3/drivers/profile/d/f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8" target="_blank">
+                 <!-- react-text: 448 -->
+                 Janardan Shukla
+                 <!-- /react-text -->
+                </a>
+               </div>
+               <!-- react-text: 449 -->
+               <!-- /react-text -->
+               <!-- react-empty: 450 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="451" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="452">
+               <span data-reactid="453" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="454">
+                 <!-- react-text: 455 -->
+                 License
+                 <!-- /react-text -->
+                 <!-- react-text: 456 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="457" style="min-width:100px;margin-right:12px;">
+                DL1RTB8063
+               </div>
+               <!-- react-text: 458 -->
+               <!-- /react-text -->
+               <!-- react-empty: 459 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="460" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="461">
+               <span data-reactid="462" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="463">
+                 <!-- react-text: 464 -->
+                 Fare
+                 <!-- /react-text -->
+                 <!-- react-text: 465 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="466" style="min-width:100px;margin-right:12px;">
+                ₹364.38
+               </div>
+               <!-- react-text: 467 -->
+               <!-- /react-text -->
+               <!-- react-empty: 468 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="469" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="470">
+               <span data-reactid="471" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="472">
+                 <!-- react-text: 473 -->
+                 Time
+                 <!-- /react-text -->
+                 <!-- react-text: 474 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="475" style="min-width:100px;margin-right:12px;">
+                45m 57s
+               </div>
+               <!-- react-text: 476 -->
+               <!-- /react-text -->
+               <!-- react-empty: 477 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="478" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="479">
+               <span data-reactid="480" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="481">
+                 <!-- react-text: 482 -->
+                 Kilometers
+                 <!-- /react-text -->
+                 <!-- react-text: 483 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="484" style="min-width:100px;margin-right:12px;">
+                21.87
+               </div>
+               <!-- react-text: 485 -->
+               <!-- /react-text -->
+               <!-- react-empty: 486 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="487" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="488">
+               <span data-reactid="489" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="490">
+                 <!-- react-text: 491 -->
+                 Status
+                 <!-- /react-text -->
+                 <!-- react-text: 492 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="493" style="min-width:100px;margin-right:12px;">
+                completed
+               </div>
+               <!-- react-text: 494 -->
+               <!-- /react-text -->
+               <!-- react-empty: 495 -->
+              </div>
+             </td>
+            </tr>
+            <tr class="cursor--pointer _style_2T0IvR" data-reactid="496">
+             <td class="_style_4AGN0S" data-reactid="497" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <i class="icon icon_right-arrow" data-reactid="498">
+              </i>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="499" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="500">
+               <span data-reactid="501" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="502">
+                 <!-- react-text: 503 -->
+                 Requested
+                 <!-- /react-text -->
+                 <!-- react-text: 504 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="505" style="min-width:100px;margin-right:12px;">
+                02/06/2017 10:34 AM +0530
+               </div>
+               <!-- react-text: 506 -->
+               <!-- /react-text -->
+               <!-- react-empty: 507 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="508" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="509">
+               <span data-reactid="510" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="511">
+                 <!-- react-text: 512 -->
+                 Driver
+                 <!-- /react-text -->
+                 <!-- react-text: 513 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="514" style="min-width:100px;margin-right:12px;">
+                <a class="text-link" data-reactid="515" href="https://partners.uber.com/p3/drivers/profile/d/f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8" target="_blank">
+                 <!-- react-text: 516 -->
+                 Janardan Shukla
+                 <!-- /react-text -->
+                </a>
+               </div>
+               <!-- react-text: 517 -->
+               <!-- /react-text -->
+               <!-- react-empty: 518 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="519" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="520">
+               <span data-reactid="521" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="522">
+                 <!-- react-text: 523 -->
+                 License
+                 <!-- /react-text -->
+                 <!-- react-text: 524 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="525" style="min-width:100px;margin-right:12px;">
+                DL1RTB8063
+               </div>
+               <!-- react-text: 526 -->
+               <!-- /react-text -->
+               <!-- react-empty: 527 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="528" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="529">
+               <span data-reactid="530" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="531">
+                 <!-- react-text: 532 -->
+                 Fare
+                 <!-- /react-text -->
+                 <!-- react-text: 533 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="534" style="min-width:100px;margin-right:12px;">
+                ₹60.00
+               </div>
+               <!-- react-text: 535 -->
+               <!-- /react-text -->
+               <!-- react-empty: 536 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="537" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="538">
+               <span data-reactid="539" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="540">
+                 <!-- react-text: 541 -->
+                 Time
+                 <!-- /react-text -->
+                 <!-- react-text: 542 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="543" style="min-width:100px;margin-right:12px;">
+                0m 0s
+               </div>
+               <!-- react-text: 544 -->
+               <!-- /react-text -->
+               <!-- react-empty: 545 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="546" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="547">
+               <span data-reactid="548" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="549">
+                 <!-- react-text: 550 -->
+                 Kilometers
+                 <!-- /react-text -->
+                 <!-- react-text: 551 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="552" style="min-width:100px;margin-right:12px;">
+                0.00
+               </div>
+               <!-- react-text: 553 -->
+               <!-- /react-text -->
+               <!-- react-empty: 554 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="555" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="556">
+               <span data-reactid="557" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="558">
+                 <!-- react-text: 559 -->
+                 Status
+                 <!-- /react-text -->
+                 <!-- react-text: 560 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="561" style="min-width:100px;margin-right:12px;">
+                driver canceled
+               </div>
+               <!-- react-text: 562 -->
+               <!-- /react-text -->
+               <!-- react-empty: 563 -->
+              </div>
+             </td>
+            </tr>
+            <tr class="cursor--pointer _style_2T0IvR" data-reactid="564">
+             <td class="_style_4AGN0S" data-reactid="565" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <i class="icon icon_right-arrow" data-reactid="566">
+              </i>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="567" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="568">
+               <span data-reactid="569" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="570">
+                 <!-- react-text: 571 -->
+                 Requested
+                 <!-- /react-text -->
+                 <!-- react-text: 572 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="573" style="min-width:100px;margin-right:12px;">
+                02/06/2017 10:08 AM +0530
+               </div>
+               <!-- react-text: 574 -->
+               <!-- /react-text -->
+               <!-- react-empty: 575 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="576" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="577">
+               <span data-reactid="578" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="579">
+                 <!-- react-text: 580 -->
+                 Driver
+                 <!-- /react-text -->
+                 <!-- react-text: 581 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="582" style="min-width:100px;margin-right:12px;">
+                <a class="text-link" data-reactid="583" href="https://partners.uber.com/p3/drivers/profile/d/f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8" target="_blank">
+                 <!-- react-text: 584 -->
+                 Janardan Shukla
+                 <!-- /react-text -->
+                </a>
+               </div>
+               <!-- react-text: 585 -->
+               <!-- /react-text -->
+               <!-- react-empty: 586 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="587" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="588">
+               <span data-reactid="589" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="590">
+                 <!-- react-text: 591 -->
+                 License
+                 <!-- /react-text -->
+                 <!-- react-text: 592 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="593" style="min-width:100px;margin-right:12px;">
+                DL1RTB8063
+               </div>
+               <!-- react-text: 594 -->
+               <!-- /react-text -->
+               <!-- react-empty: 595 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="596" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="597">
+               <span data-reactid="598" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="599">
+                 <!-- react-text: 600 -->
+                 Fare
+                 <!-- /react-text -->
+                 <!-- react-text: 601 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="602" style="min-width:100px;margin-right:12px;">
+                ₹226.83
+               </div>
+               <!-- react-text: 603 -->
+               <!-- /react-text -->
+               <!-- react-empty: 604 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="605" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="606">
+               <span data-reactid="607" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="608">
+                 <!-- react-text: 609 -->
+                 Time
+                 <!-- /react-text -->
+                 <!-- react-text: 610 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="611" style="min-width:100px;margin-right:12px;">
+                22m 29s
+               </div>
+               <!-- react-text: 612 -->
+               <!-- /react-text -->
+               <!-- react-empty: 613 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="614" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="615">
+               <span data-reactid="616" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="617">
+                 <!-- react-text: 618 -->
+                 Kilometers
+                 <!-- /react-text -->
+                 <!-- react-text: 619 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="620" style="min-width:100px;margin-right:12px;">
+                9.95
+               </div>
+               <!-- react-text: 621 -->
+               <!-- /react-text -->
+               <!-- react-empty: 622 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="623" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="624">
+               <span data-reactid="625" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="626">
+                 <!-- react-text: 627 -->
+                 Status
+                 <!-- /react-text -->
+                 <!-- react-text: 628 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="629" style="min-width:100px;margin-right:12px;">
+                completed
+               </div>
+               <!-- react-text: 630 -->
+               <!-- /react-text -->
+               <!-- react-empty: 631 -->
+              </div>
+             </td>
+            </tr>
+            <tr class="cursor--pointer _style_2T0IvR" data-reactid="632">
+             <td class="_style_4AGN0S" data-reactid="633" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <i class="icon icon_right-arrow" data-reactid="634">
+              </i>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="635" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="636">
+               <span data-reactid="637" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="638">
+                 <!-- react-text: 639 -->
+                 Requested
+                 <!-- /react-text -->
+                 <!-- react-text: 640 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="641" style="min-width:100px;margin-right:12px;">
+                02/06/2017 9:02 AM +0530
+               </div>
+               <!-- react-text: 642 -->
+               <!-- /react-text -->
+               <!-- react-empty: 643 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="644" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="645">
+               <span data-reactid="646" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="647">
+                 <!-- react-text: 648 -->
+                 Driver
+                 <!-- /react-text -->
+                 <!-- react-text: 649 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="650" style="min-width:100px;margin-right:12px;">
+                <a class="text-link" data-reactid="651" href="https://partners.uber.com/p3/drivers/profile/d/f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8" target="_blank">
+                 <!-- react-text: 652 -->
+                 Janardan Shukla
+                 <!-- /react-text -->
+                </a>
+               </div>
+               <!-- react-text: 653 -->
+               <!-- /react-text -->
+               <!-- react-empty: 654 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="655" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="656">
+               <span data-reactid="657" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="658">
+                 <!-- react-text: 659 -->
+                 License
+                 <!-- /react-text -->
+                 <!-- react-text: 660 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="661" style="min-width:100px;margin-right:12px;">
+                DL1RTB8063
+               </div>
+               <!-- react-text: 662 -->
+               <!-- /react-text -->
+               <!-- react-empty: 663 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="664" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="665">
+               <span data-reactid="666" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="667">
+                 <!-- react-text: 668 -->
+                 Fare
+                 <!-- /react-text -->
+                 <!-- react-text: 669 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="670" style="min-width:100px;margin-right:12px;">
+                ₹564.70
+               </div>
+               <!-- react-text: 671 -->
+               <!-- /react-text -->
+               <!-- react-empty: 672 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="673" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="674">
+               <span data-reactid="675" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="676">
+                 <!-- react-text: 677 -->
+                 Time
+                 <!-- /react-text -->
+                 <!-- react-text: 678 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="679" style="min-width:100px;margin-right:12px;">
+                50m 33s
+               </div>
+               <!-- react-text: 680 -->
+               <!-- /react-text -->
+               <!-- react-empty: 681 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="682" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="683">
+               <span data-reactid="684" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="685">
+                 <!-- react-text: 686 -->
+                 Kilometers
+                 <!-- /react-text -->
+                 <!-- react-text: 687 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="688" style="min-width:100px;margin-right:12px;">
+                18.13
+               </div>
+               <!-- react-text: 689 -->
+               <!-- /react-text -->
+               <!-- react-empty: 690 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="691" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="692">
+               <span data-reactid="693" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="694">
+                 <!-- react-text: 695 -->
+                 Status
+                 <!-- /react-text -->
+                 <!-- react-text: 696 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="697" style="min-width:100px;margin-right:12px;">
+                completed
+               </div>
+               <!-- react-text: 698 -->
+               <!-- /react-text -->
+               <!-- react-empty: 699 -->
+              </div>
+             </td>
+            </tr>
+            <tr class="cursor--pointer _style_2T0IvR" data-reactid="700">
+             <td class="_style_4AGN0S" data-reactid="701" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <i class="icon icon_right-arrow" data-reactid="702">
+              </i>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="703" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="704">
+               <span data-reactid="705" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="706">
+                 <!-- react-text: 707 -->
+                 Requested
+                 <!-- /react-text -->
+                 <!-- react-text: 708 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="709" style="min-width:100px;margin-right:12px;">
+                02/06/2017 8:50 AM +0530
+               </div>
+               <!-- react-text: 710 -->
+               <!-- /react-text -->
+               <!-- react-empty: 711 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="712" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="713">
+               <span data-reactid="714" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="715">
+                 <!-- react-text: 716 -->
+                 Driver
+                 <!-- /react-text -->
+                 <!-- react-text: 717 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="718" style="min-width:100px;margin-right:12px;">
+                <a class="text-link" data-reactid="719" href="https://partners.uber.com/p3/drivers/profile/d/f3fe09df-70b6-443e-ac3c-8b1d9bf7ffc8" target="_blank">
+                 <!-- react-text: 720 -->
+                 Janardan Shukla
+                 <!-- /react-text -->
+                </a>
+               </div>
+               <!-- react-text: 721 -->
+               <!-- /react-text -->
+               <!-- react-empty: 722 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="723" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="724">
+               <span data-reactid="725" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="726">
+                 <!-- react-text: 727 -->
+                 License
+                 <!-- /react-text -->
+                 <!-- react-text: 728 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="729" style="min-width:100px;margin-right:12px;">
+                DL1RTB8063
+               </div>
+               <!-- react-text: 730 -->
+               <!-- /react-text -->
+               <!-- react-empty: 731 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="732" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="733">
+               <span data-reactid="734" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="735">
+                 <!-- react-text: 736 -->
+                 Fare
+                 <!-- /react-text -->
+                 <!-- react-text: 737 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="738" style="min-width:100px;margin-right:12px;">
+                —
+               </div>
+               <!-- react-text: 739 -->
+               <!-- /react-text -->
+               <!-- react-empty: 740 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="741" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="742">
+               <span data-reactid="743" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="744">
+                 <!-- react-text: 745 -->
+                 Time
+                 <!-- /react-text -->
+                 <!-- react-text: 746 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="747" style="min-width:100px;margin-right:12px;">
+                0m 0s
+               </div>
+               <!-- react-text: 748 -->
+               <!-- /react-text -->
+               <!-- react-empty: 749 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="750" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="751">
+               <span data-reactid="752" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="753">
+                 <!-- react-text: 754 -->
+                 Kilometers
+                 <!-- /react-text -->
+                 <!-- react-text: 755 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="756" style="min-width:100px;margin-right:12px;">
+                0.00
+               </div>
+               <!-- react-text: 757 -->
+               <!-- /react-text -->
+               <!-- react-empty: 758 -->
+              </div>
+             </td>
+             <td class="text-link _style_4AGN0S" data-reactid="759" style="-moz-box-sizing:border-box;text-align:left;border-color:#E5E5E4;color:#666;box-sizing:border-box;padding:12px;border-bottom:1px solid #E5E5E4;border-left:0;border-right:0;border-top:1px solid #E5E5E4;">
+              <div data-reactid="760">
+               <span data-reactid="761" style="display:inline-block;">
+                <span class="visible--palm primary-font--semibold" data-reactid="762">
+                 <!-- react-text: 763 -->
+                 Status
+                 <!-- /react-text -->
+                 <!-- react-text: 764 -->
+                 :
+                 <!-- /react-text -->
+                </span>
+               </span>
+               <div class="display--inline-block" data-reactid="765" style="min-width:100px;margin-right:12px;">
+                driver canceled
+               </div>
+               <!-- react-text: 766 -->
+               <!-- /react-text -->
+               <!-- react-empty: 767 -->
+              </div>
+             </td>
+            </tr>
+           </tbody>
+          </table>
+         </div>
+         <div class="clearfix push--ends palm-soft--sides" data-reactid="768">
+          <div class="float--left palm-float-none soft-large--right" data-reactid="769" style="width:auto;">
+           <div class="select select--borderless" data-reactid="770">
+            <select data-reactid="771">
+             <option data-reactid="772" selected="" value="10">
+              Show 10 per page
+             </option>
+             <option data-reactid="773" value="20">
+              Show 20 per page
+             </option>
+             <option data-reactid="774" value="50">
+              Show 50 per page
+             </option>
+            </select>
+           </div>
+          </div>
+          <div class="push-tiny float--right palm-float-none palm-one-whole palm-flush--sides" data-reactid="775">
+           <nav class="" data-reactid="776" role="navigation">
+            <ul class="pagination" data-reactid="777">
+             <li class="pagination__item btn-group__item--disabled" data-reactid="778">
+              <button aria-label="Previous Page" class="pagination__button pagination__button--disabled" data-reactid="779" disabled="">
+               Previous
+              </button>
+             </li>
+             <li class="pagination__item transition--fast active" data-reactid="780">
+              <button aria-label="Current Page, 1 Page" class="pagination__button" data-reactid="781">
+               1
+              </button>
+             </li>
+             <li class="pagination__item btn-group__item--disabled" data-reactid="782">
+              <button aria-label="Next Page" class="pagination__button pagination__button--disabled" data-reactid="783" disabled="">
+               Next
+              </button>
+             </li>
+            </ul>
+           </nav>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <script data-reactid="784" src="https://d3i4yxtzktqr9n.cloudfront.net/web-fleet-manager/javascripts/main-eb5e621b3d.js">
+     </script>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
+
